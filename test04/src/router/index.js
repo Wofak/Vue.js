@@ -111,6 +111,89 @@ const routes = [{
     component: () =>
       import( /* webpackPrefetch:true, webpackChunkName: "Button" */ "../views/Button.vue"),
   },
+  {
+    path: "/Class",
+    name: "Class",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Class" */ "../views/Class.vue"),
+  },
+  {
+    path: "/Class2",
+    name: "Class2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Class2" */ "../views/Class2.vue"),
+  },
+  {
+    path: "/Class3",
+    name: "Class3",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Class3" */ "../views/Class3.vue"),
+  },
+  {
+    path: "/Style",
+    name: "Style",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Style" */ "../views/Style.vue"),
+  },
+  {
+    path: "/List",
+    name: "List",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "List" */ "../views/List.vue"),
+  },
+  {
+    path: "/List2",
+    name: "List2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "List2" */ "../views/List2.vue"),
+  },
+  {
+    path: "/renderingif",
+    name: "RenderingIf",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "RenderingIf" */ "../views/RenderingIf.vue"),
+  },
+  {
+    path: "/eventbinding",
+    name: "EventBinding",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "EventBinding" */ "../views/EventBinding.vue"),
+  },
+  {
+    path: "/exampleQ1",
+    name: "ExampleQ",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "ExampleQ" */ "../views/ExampleQ.vue"),
+  },
+
+
 
 ];
 
