@@ -10,7 +10,18 @@
     <router-link to="/checkbox">Checkbox</router-link> | 
     <router-link to="/radio">Radio</router-link> | 
     <router-link to="/attribute">Attribute</router-link> | 
-    <router-link to="/button">Button</router-link> | 
+    <router-link to="/button">Button</router-link> | <br>
+    <router-link to="/Class">Class</router-link> | 
+    <router-link to="/Class2">Class2</router-link> | 
+    <router-link to="/Class3">Class3</router-link> | 
+    <router-link to="/Style">Style</router-link> | 
+    <router-link to="/List">List</router-link> | 
+    <router-link to="/List2">List2</router-link> | <br>
+    <router-link to="/renderingif">RenderingIf</router-link> | 
+    <router-link to="/eventbinding">EventBinding</router-link> | 
+    <br>
+    <router-link to="/exampleQ1">ExampleQ1</router-link> | 
+
   
   
   
