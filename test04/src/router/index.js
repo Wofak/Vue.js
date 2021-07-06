@@ -192,6 +192,126 @@ const routes = [{
     component: () =>
       import( /* webpackPrefetch:true, webpackChunkName: "ExampleQ" */ "../views/ExampleQ.vue"),
   },
+  {
+    path: "/exampleQ2",
+    name: "ExampleQ2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "ExampleQ2" */ "../views/ExampleQ2.vue"),
+  },
+  {
+    path: "/computed",
+    name: "Computed",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Computed" */ "../views/Computed.vue"),
+  },
+  {
+    path: "/watch",
+    name: "Watch",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Watch" */ "../views/Watch.vue"),
+  },
+  {
+    path: "/nestedcomponent",
+    name: "NestedComponent",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "NestedComponent" */ "../views/NestedComponent.vue"),
+  },
+  {
+    path: "/nestedcomponent2",
+    name: "NestedComponent2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "NestedComponent2" */ "../views/NestedComponent2.vue"),
+  },
+  {
+    path: "/nestedcomponent3",
+    name: "NestedComponent3",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "NestedComponent3" */ "../views/NestedComponent3.vue"),
+  },
+  {
+    path: "/nestedcomponent4",
+    name: "NestedComponent4",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "NestedComponent4" */ "../views/NestedComponent4.vue"),
+  },
+  {
+    path: "/nestedcomponent5",
+    name: "NestedComponent5",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "NestedComponent5" */ "../views/NestedComponent5.vue"),
+  },
+  {
+    path: "/parent",
+    name: "Parent",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Parent" */ "../views/Parent.vue"),
+  },
+  {
+    path: "/parent2",
+    name: "Parent2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Parent2" */ "../views/Parent2.vue"),
+  },
+  {
+    path: "/slotusemodallayout",
+    name: "SlotUseModalLayout",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "SlotUseModalLayout" */ "../views/SlotUseModalLayout.vue"),
+  },
+  {
+    path: "/provideinject",
+    name: "ProvideInject",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "ProvideInject" */ "../views/ProvideInject.vue"),
+  },
+  {
+    path: "/databindinglist3",
+    name: "DataBindingList3",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "DataBindingList3" */ "../views/DataBindingList3.vue"),
+  },
+
+
+
 
 
 

@@ -21,6 +21,23 @@
     <router-link to="/eventbinding">EventBinding</router-link> | 
     <br>
     <router-link to="/exampleQ1">ExampleQ1</router-link> | 
+    <router-link to="/exampleQ2">ExampleQ2</router-link> | 
+    <br>
+    <router-link to="/computed">Computed</router-link> | 
+    <router-link to="/watch">Watch</router-link> | 
+    <br>
+    <router-link to="/nestedcomponent">Nested</router-link> | 
+    <router-link to="/nestedcomponent2">Nested2</router-link> | 
+    <router-link to="/nestedcomponent3">Nested3</router-link> | 
+    <router-link to="/nestedcomponent4">Nested4</router-link> | 
+    <router-link to="/nestedcomponent5">Nested5</router-link> | <br>
+    <router-link to="/parent">Parent</router-link> |
+    <router-link to="/parent2">Parent2</router-link> |
+    <router-link to="/slotusemodallayout">SlotUseModalLayout</router-link> |
+    <router-link to="/provideinject">ProvideInject</router-link> |
+    <router-link to="/databindinglist3">DataBindingList3</router-link> |
+
+
 
   
   
