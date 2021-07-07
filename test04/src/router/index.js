@@ -309,6 +309,69 @@ const routes = [{
     component: () =>
       import( /* webpackPrefetch:true, webpackChunkName: "DataBindingList3" */ "../views/DataBindingList3.vue"),
   },
+  {
+    path: "/storeaccess",
+    name: "StoreAccess",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "StoreAccess" */ "../views/StoreAccess.vue"),
+  },
+  {
+    path: "/loginaccess",
+    name: "LoginAccess",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "LoginAccess" */ "../views/LoginAccess.vue"),
+  },
+  {
+    path: "/login",
+    name: "Login",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackPrefetch:true, webpackChunkName: "Login" */ "../views/Login.vue"),
+  },
+  {
+    path: "/kakaologin",
+    name: "KakaoLogin",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /* webpackChunkName: "KakaoLogin" */ "../views/KakaoLogin.vue"),
+  },
+  {
+    path: "/kakaologin2",
+    name: "KakaoLogin2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /*  webpackChunkName: "KakaoLogin2" */ "../views/KakaoLogin2.vue"),
+  },
+  {
+    path: "/naverlogin",
+    name: "NaverLogin",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /*  webpackChunkName: "NaverLogin" */ "../views/NaverLogin.vue"),
+  },
+  {
+    path: "/naverlogin2",
+    name: "NaverLogin2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import( /*  webpackChunkName: "NaverLogin2" */ "../views/NaverLogin2.vue"),
+  },
 
 
 
@@ -318,7 +381,7 @@ const routes = [{
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes,
 });
 

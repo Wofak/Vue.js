@@ -1,4 +1,5 @@
 <template>
+<Header />
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
@@ -35,7 +36,14 @@
     <router-link to="/parent2">Parent2</router-link> |
     <router-link to="/slotusemodallayout">SlotUseModalLayout</router-link> |
     <router-link to="/provideinject">ProvideInject</router-link> |
-    <router-link to="/databindinglist3">DataBindingList3</router-link> |
+    <router-link to="/databindinglist3">DataBindingList3</router-link> |<br>
+    <router-link to="/storeaccess">StoreAccess</router-link> |
+    <router-link to="/loginaccess">LoginAccess</router-link> |
+    <router-link to="/login">Login</router-link> |
+    <router-link to="/kakaologin">KakaoLogin</router-link> |
+    <router-link to="/kakaologin2">KakaoLogin2</router-link> |
+    <router-link to="/naverlogin">NaverLogin</router-link> |
+    <router-link to="/naverlogin2">NaverLogin2</router-link> |
 
 
 
@@ -45,6 +53,15 @@
   </div>
   <router-view />
 </template>
+<script>
+import Header from "./components/Header.vue"
+export default {
+  components: { Header },
+}
+</script>
+
+
+
 
 <style>
 #app {
