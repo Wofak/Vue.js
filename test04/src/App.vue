@@ -44,6 +44,7 @@
     <router-link to="/kakaologin2">KakaoLogin2</router-link> |
     <router-link to="/naverlogin">NaverLogin</router-link> |
     <router-link to="/naverlogin2">NaverLogin2</router-link> |
+    <router-link to="/googlelogin">GoogleLogin</router-link> |
 
 
 
